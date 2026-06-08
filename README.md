@@ -64,7 +64,7 @@ frontend/
 ### 1) Backend setup
 
 ```bash
-cd /tmp/workspace/Jacky-ChunChi-Yang/Interview-questions-generator/backend
+cd backend
 npm install
 npm start
 ```
@@ -74,7 +74,7 @@ Backend runs at `http://localhost:4000`.
 ### 2) Frontend setup
 
 ```bash
-cd /tmp/workspace/Jacky-ChunChi-Yang/Interview-questions-generator/frontend
+cd frontend
 npm install
 npm run dev
 ```
@@ -86,7 +86,7 @@ Frontend runs at `http://localhost:5173`.
 Create a database and apply:
 
 ```bash
-psql -d interview_platform -f /tmp/workspace/Jacky-ChunChi-Yang/Interview-questions-generator/backend/src/db/schema.sql
+psql -d interview_platform -f backend/src/db/schema.sql
 ```
 
 Optionally set backend environment variable:
